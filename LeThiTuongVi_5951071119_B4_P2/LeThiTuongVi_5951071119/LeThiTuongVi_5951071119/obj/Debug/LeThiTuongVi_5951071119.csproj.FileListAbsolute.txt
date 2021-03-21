@@ -1,0 +1,17 @@
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\LeThiTuongVi_5951071119.exe.config
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\LeThiTuongVi_5951071119.exe
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\LeThiTuongVi_5951071119.pdb
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.csprojAssemblyReference.cache
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.Form1.resources
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.Properties.Resources.resources
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.csproj.GenerateResource.cache
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.csproj.CoreCompileInputs.cache
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.exe
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.pdb
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\System.Security.AccessControl.dll
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\System.Security.Permissions.dll
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\System.Security.Principal.Windows.dll
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\System.Security.AccessControl.xml
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\System.Security.Permissions.xml
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\bin\Debug\System.Security.Principal.Windows.xml
+D:\API\LeThiTuongVi_5951071119\LeThiTuongVi_5951071119\obj\Debug\LeThiTuongVi_5951071119.csproj.CopyComplete
