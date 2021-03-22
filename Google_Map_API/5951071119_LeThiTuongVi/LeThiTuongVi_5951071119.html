@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Map API </title>
+        <style>
+            #map {
+                height: 100%;
+            }
+    
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+        <script>
+            function initMap() {
+                var utc2 =  new google.maps.LatLng(10.845851060698092, 106.79453880824641);
+                var home = new google.maps.LatLng(10.847301, 106.792705);
+                const directionsService = new google.maps.DirectionsService();
+                const directionsRenderer = new google.maps.DirectionsRenderer();
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 7,
+                    center: utc2,
+    
+                });
+                const marker = new google.maps.Marker({
+                position: utc2,
+                map: map,       
+                icon: "school.png",
+            });
+            const UTC2 = new google.maps.InfoWindow({
+                content: "<b>TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI PHÂN HIỆU TẠI THÀNH PHỐ HỒ CHÍ MINH</b> </br>451 Lê Văn Việt, Tăng Nhơn Phú A, Quận 9,TPHCM ",
+              
+            });
+            marker.addListener("click", () => {UTC2.open(map, marker);});
+            const marker2 = new google.maps.Marker({
+                position: home,
+                map: map,    
+                icon: "vi.png",
+            });
+            const Me = new google.maps.InfoWindow({
+                content: "<b>Tên: Lê Thị Tường Vi</b> </br> Mã sinh viên: 5951071119 </br>  Ngày sinh: 26-12-2000</br>Tuổi :20</br>Quê quán: Đồng Tháp</br>Email:levi20001226@gmail.com",
+            });
+            marker2.addListener("click", () => {Me.open(map, marker2);});
+            directionsRenderer.setMap(map);
+            var request = {
+              origin: utc2,
+              destination: home,
+              travelMode: 'WALKING'
+          };
+          directionsService.route(request, function (response, status) {
+              if (status == 'OK') {
+                  directionsRenderer.setDirections(response);
+
+              }
+          });
+        }
+        </script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    </head>
+    <body>
+
+        <div id="map"></div>
+    
+    
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+            async></script>
+    </body>
+</html>
